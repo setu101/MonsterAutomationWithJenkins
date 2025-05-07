@@ -77,6 +77,23 @@ public class HomePageTest {
     }
 
 
+    @Test
+
+    public void ResumeHelpLinkTest(){
+        driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/header/div[4]/nav/div/div[2]/ul/li[4]/a")).click();
+    }
+
+    @Test
+    public void UploadResumeLinkTest(){
+        driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/header/div[4]/nav/div/div[2]/ul/li[5]/a")).click();
+
+    }
+
+  @Test
+  public  void SignUpLinkTest(){
+        driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/header/div[4]/div/div[4]/div/a[1]/")).click();
+  }
+
     @AfterMethod
     public static void tearDown() {
         driver.quit();
