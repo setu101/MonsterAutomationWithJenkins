@@ -91,7 +91,7 @@ public class HomePageTest {
 
   @Test
   public  void SignUpLinkTest(){
-        driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/header/div[4]/div/div[4]/div/a[1]/")).click();
+        driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/header/div[4]/div/div[4]/div/a[1]/span")).click();
   }
 
     @AfterMethod
